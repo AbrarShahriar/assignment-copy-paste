@@ -64,7 +64,7 @@ Student Name: Your Name
 Student ID: 24301500
 Assignment Number: 01
 Folder Name: assignment1
-Content written to Assignment 01_24301500_Your Name.txt successfully!
+Assigment text file created successfully!
 ```
 
 The above command will generate a file named

@@ -73,7 +73,7 @@ public class GenerateTxt {
             }
 
             writer.close(); // Close the FileWriter
-            System.out.println("Content written to " + fileName + " successfully!");
+            System.out.println("Assigment text file created successfully!");
         } catch (IOException e) {
             e.printStackTrace();
         }

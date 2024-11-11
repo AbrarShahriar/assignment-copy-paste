@@ -4,6 +4,8 @@ import java.io.FileFilter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class GenerateTxt {
@@ -41,6 +43,12 @@ public class GenerateTxt {
 
                 // Looping through every java file
                 if (files != null) {
+                    Arrays.sort(files, Comparator.comparingInt(file -> {
+                        String name = file.getName();
+                        String number = name.replaceAll("[^0-9]", "");
+                        return Integer.parseInt(number);
+                    }));
+
                     for (int i = 0; i < files.length; i++) {
                         FileReader reader = new FileReader(files[i]);
                         BufferedReader bufferedReader = new BufferedReader(reader);

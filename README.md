@@ -39,10 +39,10 @@ Task3.java
 root
 ├── GenerateTxt.java
 └── assignment1
-    └── Task1.java
-    └── Task2.java
-    └── Task3.java
-    └── ...
+    ├── Task1.java
+    ├── Task2.java
+    ├── Task3.java
+    ├── ...
     └── TaskX.java
 ```
 
@@ -53,13 +53,13 @@ root
 1. Make sure the script file and assignment folder are in the same parent folder
 2. Compile `GenerateTxt.java` by running this command:
 
-```bash
+```
 javac GenerateTxt.java
 ```
 
 Go through each prompt:
 
-```bash
+```
 Student Name: Your Name
 Student ID: 24301500
 Assignment Number: 01
@@ -69,6 +69,20 @@ Content written to Assignment 01_24301500_Your Name.txt successfully!
 
 The above command will generate a file named
 `Assignment 01_24301500_Your Name.txt` in the parent folder next to `GenerateTxt.java`.
+
+If you have a folder structure like this:
+
+```
+root
+├── GenerateTxt.java
+├── Task1.java
+├── Task2.java
+├── Task3.java
+├── ...
+└── TaskX.java
+```
+
+Then input `./` in the `Folder Name` parameter.
 
 ## Before you go
 

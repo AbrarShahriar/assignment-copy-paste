@@ -87,3 +87,5 @@ Then input `./` in the `Folder Name` parameter.
 ## Before you go
 
 Feel free to modify the script to fit your needs.
+
+**A Request:** If this repo helped you then kindly give it a ⭐!
